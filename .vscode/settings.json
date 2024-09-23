@@ -1,0 +1,35 @@
+{
+  "torizon_psswd": "959798",
+  "torizon_login": "torizon",
+  "torizon_ip": "192.168.0.51",
+  "torizon_ssh_port": "22",
+  "host_ip": "192.168.0.53",
+  "torizon_workspace": "${workspaceFolder}",
+  "torizon_debug_ssh_port": "2224",
+  "torizon_debug_port1": "",
+  "torizon_debug_port2": "",
+  "torizon_debug_port3": "",
+  "torizon_gpu": "-imx8",
+  "torizon_arch": "aarch64",
+  "wait_sync": "1",
+  "torizon_run_as": "torizon",
+  "torizon_app_root": "/home/torizon/app",
+  "tcb.packageName": "AvaloniaVirtualKeyboardFBDRM",
+  "tcb.version": "3.10.0",
+  "torizon.gpuPrefixRC": true,
+  "dotnet.preferCSharpExtension": false,
+  "omnisharp.useModernNet": true,
+  "dotnet.server.useOmnisharp": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "*.axaml": "$(capture).axaml.cs"
+  },
+  "docker.environment": {
+    "DOCKER_HOST": "tcp://192.168.0.51:2375",
+    "DEBUG_SSH_PORT": "2222",
+    "DEBUG_PORT1": "2222",
+    "DEBUG_PORT2": "2223",
+    "DEBUG_PORT3": "2224"
+  }
+}
